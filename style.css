@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-size: small;
+    background-color: lightgreen;
+    font-family: 'arial light', sans-serif;
+    font-weight: lighter;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra-navegacion{
+    display: flex;
+    padding: 20px;
+}
+.titulo{
+    font-size: 5vw;
+    font-family: 'Comic Relief', system-ui;
+    display: flex;
+    padding-left: 10vw;
+}
+.titulo span{
+    border-bottom: 1px solid black;
+}
+.color1{
+    color: rgb(0, 207, 10);
+    border-end-start-radius: 10px;
+}
+.color2{
+    color: rgb(127, 129, 127);
+}
+.color3{
+    color: rgb(109, 255, 117);
+}
+.menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5vw;
+    padding-left: 5vw;
+    border-bottom: 1px solid black;
+}
+.boton1{
+    width: 15vw;
+    height: 4vw;
+    font-size: 2vw;
+    font-family: "Comic Relief", system-ui;
+    background-color: rgb(97, 255, 97);
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+}
+.boton2{
+    width: 15vw;
+    height: 4vw;
+    font-size: 2vw;
+    font-family: "Comic Relief", system-ui;
+    color: white;
+    background-color:rgb(6, 105, 6);
+    border-top-width: 2px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+}
+.selector{
+    display: flex;
+    margin-left: 14vw;
+    font-size: 3vw;
+    font-family: "Comic Relief", system-ui;
+}
+.tipo-arbol{
+    margin-left: 10vw;
+    font-family: "Comic Relief", system-ui;
+    width: 20vw;
+    font-size: 2vw;
+}
+.contenido-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6vw;
+    padding-right: 5vw;
+}
+.cuadro-arbol{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 2vw;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    font-family: "Comic Relief", system-ui;
+    margin-bottom: 5px;
+    text-align: left;
+    display: flex;
+}
+.contenido-derecha{
+    margin-right: 2vw;
+    width: inherit;
+}
+.contenido-derecha .cuadro-arbol{
+    height: auto;
+    
+}
+.cuadro-arbol p{
+    padding: 5px;
+    font-size: small;
+    display: flex;
+}
+.cuadro-arbol h2{
+    padding: 5px;
+    display: flex;
+}
+.arbol{
+    display: flex;
+    border-radius: 15px;
+    width: 45%;
+    padding: 5px;
+}
+.boton-adoptar{
+    display: flex;
+    height: 2vw;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+    background-color: rgb(97, 255, 97);
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    font-family: "Comic Relief", system-ui;
+}
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(76, 252, 76);
+    padding: 10px;
+    font-weight: 700;
+}
+
+footer h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.pie2 ul {
+    flex-direction: column;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+}
+.boton-enviar{
+    background-color: rgb(0, 207, 10);
+    size: 20px;
+    font-family: "Comic Relief", system-ui;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <header>
+      <h1>Tu plataforma favorita de adopcion de arboles</h1>
+    </header>
+
+    <div class="barra-navegacion">
+      <!-- Inicio de barra de navegacion -->
+      <div class="titulo">
+        <span class="color1">Adopta</span>
+        <span class="color2">Tu</span>
+        <span class="color3">Árbol</span>
+      </div>
+      <div class="menu">
+        <button class="boton1">Adoptar</button>
+        <button class="boton2" id="boton2">Donar</button>
+      </div>
+    </div>
+    <!-- Fin de barra de navegacion -->
+
+    <div class="selector">
+      <!-- Inicio de selector de árboles -->
+      <div>
+        <span>Mostrando:</span>
+        <span class="selector-arboles"> Todos los árboles</span>
+      </div>
+      <select class="tipo-arbol" title="Seleccione el árbol">
+        <option disabled selected hidden>Todos los árboles.</option>
+        <option>Todos los árboles.</option>
+        <option>Árboles frutales.</option>
+        <option>Árboles ornamentales.</option>
+        <option>Árboles de flor.</option>
+      </select>
+    </div>
+    <!-- Fin de selector de árboles -->
+
+    <main class="contenido-principal">
+      <!-- Inicio de contenido principal/cuerpo de la pagina. -->
+      <div class="contenido-izquierda">
+        <!--barra lateral izquierda(corresponde a los dos cuadros de arboles)-->
+        <div class="cuadro-arbol" id="cuadro1">
+          <img src="images/Alamo.png" class="arbol" alt="Álamo" height="150px"/>
+          <div>
+            <h2>Álamo</h2>
+            <p>Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
+          </div>
+          <button class="boton-adoptar" id="boton-adoptar">Adoptar</button>
+        </div>
+
+        <div class="cuadro-arbol">
+          <img src="images/Pino.png" class="arbol" alt="Pino" height="150px" />
+          <div>
+            <h2>Pino</h2>
+            <p>
+              Árbol de la familia de las abietáceas, de tronco elevado, recto.
+            </p>
+          </div>
+          <button class="boton-adoptar" id="boton-adoptar">Adoptar</button>
+        </div>
+      </div>
+      <div class="contenido-derecha">
+        <!--barra lateral derecha(corresponde a los dos cuadros de arboles restantes)-->
+        <div class="cuadro-arbol">
+          <img src="images/Fresno.png" class="arbol" alt="Fresno" height="150px" />
+          <div>
+            <h2>Fresno</h2>
+            <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+          </div>
+          <button class="boton-adoptar" id="boton-adoptar">Adoptar</button>
+        </div>
+        <div class="cuadro-arbol">
+          <img src="images/Jacaranda.png" class="arbol" alt="Jacaranda" height="150px" />
+          <div>
+            <h2>Jacaranda</h2>
+            <p>Árbol de copa extendida y redondeada con flores.</p>
+          </div>
+          <button class="boton-adoptar" id="boton-adoptar">Adoptar</button>
+        </div>
+      </div>
+    </main>
+    <!-- Fin de contenido principal/cuerpo de la pagina. -->
+
+    <footer class="pie" >
+      <!-- Inicio del pie de pagina. -->
+      <div class="pie1">
+        <h3>Contáctanos</h3>
+        <p>Av. principal #123</p>
+        <p>Ciudad Palma 10000</p>
+        <p>Chile</p>
+      </div>
+      <div class="pie2">
+        <ul>
+          <li>Inicio</li>
+          <li>Sobre nosotros</li>
+          <li>Adopta un árbol</li>
+          <li>Contacto</li>
+          <li>Patrocinadores</li>
+          <li>Proyectos</li>
+        </ul>
+      </div>
+      <div class="pie3">
+        <h3>Suscribete</h3>
+        <input type="email" placeholder="Usuario@correo.com" class="correo" />
+        <input type="submit" value="Enviar" class="boton-enviar" />
+      </div>
+    </footer>
+    <!-- Fin del pie de pagina. -->    
+    <script src="script.js" defer></script>
+  </body>
+</html>
